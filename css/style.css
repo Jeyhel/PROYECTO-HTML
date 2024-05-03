@@ -5,6 +5,8 @@ body{
    max-height: 2000px;
    background: var(--color-1);
    display: flex;
+   
+ 
 
 }
 .header{
@@ -30,7 +32,7 @@ body{
     margin-left: 90px;
     padding-top: 10px;
     display: flex;
-    justify-content: space-around; 
+   
     color: var(--color-3);
     font-size: 20px;
    
@@ -39,7 +41,7 @@ body{
 .center{
     align-items: center;
     margin-left: -130%;
-    padding-top: 40%;
+    padding-top: 35%;
 }
 .center h1{
     font-size: 80px;
@@ -63,7 +65,79 @@ button{
     font-size: 20px;
 }
 .img1{
+    position: absolute; 
+    left: 50%;
+    top: 20%; 
+
+}
+.page2{
+
+    padding-top: 200px;
+    margin-left: -20%;
+    display: flex;
+    font-family: 'Poppins';
+    
+   
+}
+
+.home{
     position: absolute;
-    left: 55%;
-    top: 20% ;
+    margin-left: -24%;
+    width: 450px;
+    gap:20%;
+}
+.page2 h3{
+    color: var(--color-2);
+   
+    
+
+}.page2 p{
+    color: var(--color-3);
+
+}
+.page2 h2{
+
+    color: var(--color-3);
+    font-size: 40px;
+}
+.text{
+    margin-left: 15%;
+    
+}
+.text_2 p{
+font-size: 25px;
+
+}
+.aline{
+    margin-top: 25%;
+    align-content: center;
+    text-align: center;
+    margin-left: -100%;
+    font-family: 'Poppins';
+}   
+.menu{
+    color: var(--color-2);
+    font-size: 20px;
+}
+.taste{
+    color: var(--color-3);
+    
+}
+.contaninG{
+    display: flex;
+
+}
+.contanin1{
+    width: 50px ;
+    height: 50px;
+    background: var(--color-4);
+
+}
+.contanin2{
+    background: var(--color-4);
+}
+
+.contanin3{
+    background: var(--color-4);
+    
 }
