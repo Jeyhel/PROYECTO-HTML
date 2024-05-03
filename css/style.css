@@ -1,0 +1,55 @@
+@import url(variables.css);
+
+body{
+   max-width: 1400px;
+   max-height: 2000px;
+   background: var(--color-1);
+   display: flex;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.header h3{
+    color: #ff702a;
+}
+.head{
+    padding-left: 60%;
+    display: flex;
+    gap: 20%; 
+}
+.head p{
+    margin-left: 90px;
+    display: flex;
+    justify-content: space-around; 
+    color: var(--color-3);
+   
+    
+}
+.center{
+    padding-left: 20%;
+    padding-top: 60%;
+}
+.center h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-2);
+}
+.center p{
+    color: var(--color-3);
+    display: flex;
+    left: 50%;
+    padding-top: 60%;
+}
+
+button{
+    background: var(--color-2);
+}
+.img1{
+    position: absolute;
+    left: 55%;
+    top: 20% ;
+}
