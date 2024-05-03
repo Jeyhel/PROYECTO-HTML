@@ -164,3 +164,76 @@ width: 48%;
     background: var(--color-4);
     
 }
+.containG h3{
+    color: var(--color-2);
+
+}
+
+
+.service{
+    margin-top: 5%;
+    align-content: center;
+    text-align: center;
+    margin-left: -100%;
+    font-family: 'Poppins';
+}   
+.menu{
+    color: var(--color-2);
+    font-size: 20px;
+}
+.taste h3 {
+    color: var(--color-3);
+    padding-bottom: 5%;
+    font-size: 35px;
+   
+    
+}
+.containG {
+    display: flex;
+    gap: 5%;
+    margin-left: 8%;
+    padding-bottom: 10%;
+}
+.contain1{
+
+    width: 25%;
+    height: 90%;
+    background: var(--color-1);
+
+}
+.contain1 p{
+    color: var(--color-3);
+    font-size: 22px;
+    width: 80%;
+}
+
+
+.contain2{
+
+    width: 25%;
+    height: 90%;
+    background: var(--color-1);
+}
+.contain2 p{
+    color: var(--color-3);
+    font-size: 22px;
+}
+
+
+.contain3{
+
+    width: 25%;
+    height: 90%;
+    background: var(--color-1);
+    
+}
+.contain3 p{
+    color: var(--color-3);
+    font-size: 22px;
+}
+
+
+.containG h3{
+    color: var(--color-2);
+
+}
