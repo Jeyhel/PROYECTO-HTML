@@ -15,38 +15,52 @@ body{
 }
 .header h3{
     color: #ff702a;
+    padding-left: 27%;
+    font-size: 40px;
+    font-family: 'Poppins';
+    margin-top: 1%;
 }
 .head{
-    padding-left: 60%;
+    padding-left: 55%;
     display: flex;
-    gap: 20%; 
+    gap: 10px; 
+    font-family: 'Poppins'; 
 }
 .head p{
     margin-left: 90px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-around; 
     color: var(--color-3);
+    font-size: 20px;
    
     
 }
 .center{
-    padding-left: 20%;
-    padding-top: 60%;
+    align-items: center;
+    margin-left: -130%;
+    padding-top: 40%;
 }
 .center h1{
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-family: 'Poppins-normal';
     color: var(--color-2);
 }
 .center p{
     color: var(--color-3);
     display: flex;
     left: 50%;
-    padding-top: 60%;
+    font-size: 40px;
+    font-family: 'Poppins';
+    
 }
 
 button{
     background: var(--color-2);
+    color: var(--color-3);
+    padding: 10px 30px;
+    font-family: 'Poppins';
+    font-size: 20px;
 }
 .img1{
     position: absolute;
