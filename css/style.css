@@ -40,8 +40,8 @@ body{
 }
 .center{
     align-items: center;
-    margin-left: -130%;
-    padding-top: 35%;
+    margin-left: -60%;
+    padding-top: 15%;
 }
 .center h1{
     font-size: 80px;
@@ -106,8 +106,19 @@ button{
 }
 .text_2 p{
 font-size: 25px;
+width: 48%;
 
 }
+.text_2 h2{
+    font-size: 40px;
+    width: 50%;
+    
+}
+
+
+
+
+
 .aline{
     margin-top: 25%;
     align-content: center;
@@ -119,25 +130,37 @@ font-size: 25px;
     color: var(--color-2);
     font-size: 20px;
 }
-.taste{
+.taste h3 {
     color: var(--color-3);
+    padding-bottom: 5%;
+    font-size: 35px;
+   
     
 }
-.contaninG{
+.containG {
     display: flex;
-
+    gap: 5%;
+    margin-left: 8%;
+    padding-bottom: 10%;
 }
-.contanin1{
-    width: 50px ;
-    height: 50px;
+.contain1{
+
+    width: 25%;
+    height: 90%;
     background: var(--color-4);
 
 }
-.contanin2{
+.contain2{
+
+    width: 25%;
+    height: 90%;
     background: var(--color-4);
 }
 
-.contanin3{
+.contain3{
+
+    width: 25%;
+    height: 90%;
     background: var(--color-4);
     
 }
